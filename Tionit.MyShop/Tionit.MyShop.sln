@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Core", "01_Core", "{69918790-0F55-4B2D-B32A-1FD8A0F6B1A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Admin", "02_Admin", "{7ADF5129-5A36-4406-B1AD-B18704E6DCEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Portal", "03_Portal", "{699C8CED-0EBE-49E2-BD4F-356462D9B88D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misk", "Misk", "{725972D7-F506-44CE-A911-610671D54242}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyStore.Domain", "..\..\..\Workspaces\MyStore\Tionit.MyStore.Domain\Tionit.MyStore.Domain.csproj", "{C7992DCD-EDE2-43F0-87AD-83A960052BC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyStore.Persistence", "..\..\..\Workspaces\MyStore\Tionit.MyStore.Persistence\Tionit.MyStore.Persistence.csproj", "{185FF121-F37A-4B67-9CDB-F17C0A37F454}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyStore.Application", "..\..\..\Workspaces\MyStore\Tionit.MyStore.Application\Tionit.MyStore.Application.csproj", "{3C2B242E-D6CE-4CD2-99DA-AC8B2FA4A7F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyStore.Migrator", "..\..\..\Workspaces\MyStore\Tionit.MyStore.Migrator\Tionit.MyStore.Migrator.csproj", "{FC983C41-7928-4CAA-94E3-24FB7AEAFFAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyStore.Application.Admin", "..\..\..\Workspaces\MyStore\Tionit.MyStore.Application.Admin\Tionit.MyStore.Application.Admin.csproj", "{4118CD7E-15E1-46D0-B6F5-40736FBB3350}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyStore.Admin.Server", "..\..\..\Workspaces\MyStore\Tionit.MyStore.Admin\Server\Tionit.MyStore.Admin.Server.csproj", "{6A2BAFEC-78E9-4D8C-84A4-E9B4379294EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyStore.Admin.Shared", "..\..\..\Workspaces\MyStore\Tionit.MyStore.Admin\Shared\Tionit.MyStore.Admin.Shared.csproj", "{63FF770D-08C1-44B3-A696-0B07FD0A88D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyStore.Admin.Client", "..\..\..\Workspaces\MyStore\Tionit.MyStore.Admin\Client\Tionit.MyStore.Admin.Client.csproj", "{65B062A8-ED6F-4726-B969-A5F053C3BE72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyStore.Portal", "..\..\..\Workspaces\MyStore\Tionit.MyStore.Portal\Tionit.MyStore.Portal.csproj", "{00998CAE-2EA7-4FB5-B059-001B505F5EF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyStore.Application.Portal", "..\..\..\Workspaces\MyStore\Tionit.MyStore.Application.Portal\Tionit.MyStore.Application.Portal.csproj", "{62353A23-17B6-432B-B4C6-837190BA2426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7992DCD-EDE2-43F0-87AD-83A960052BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7992DCD-EDE2-43F0-87AD-83A960052BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7992DCD-EDE2-43F0-87AD-83A960052BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7992DCD-EDE2-43F0-87AD-83A960052BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185FF121-F37A-4B67-9CDB-F17C0A37F454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185FF121-F37A-4B67-9CDB-F17C0A37F454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185FF121-F37A-4B67-9CDB-F17C0A37F454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185FF121-F37A-4B67-9CDB-F17C0A37F454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2B242E-D6CE-4CD2-99DA-AC8B2FA4A7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2B242E-D6CE-4CD2-99DA-AC8B2FA4A7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2B242E-D6CE-4CD2-99DA-AC8B2FA4A7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2B242E-D6CE-4CD2-99DA-AC8B2FA4A7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC983C41-7928-4CAA-94E3-24FB7AEAFFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC983C41-7928-4CAA-94E3-24FB7AEAFFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC983C41-7928-4CAA-94E3-24FB7AEAFFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC983C41-7928-4CAA-94E3-24FB7AEAFFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4118CD7E-15E1-46D0-B6F5-40736FBB3350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4118CD7E-15E1-46D0-B6F5-40736FBB3350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4118CD7E-15E1-46D0-B6F5-40736FBB3350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4118CD7E-15E1-46D0-B6F5-40736FBB3350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2BAFEC-78E9-4D8C-84A4-E9B4379294EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2BAFEC-78E9-4D8C-84A4-E9B4379294EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2BAFEC-78E9-4D8C-84A4-E9B4379294EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2BAFEC-78E9-4D8C-84A4-E9B4379294EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63FF770D-08C1-44B3-A696-0B07FD0A88D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63FF770D-08C1-44B3-A696-0B07FD0A88D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63FF770D-08C1-44B3-A696-0B07FD0A88D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63FF770D-08C1-44B3-A696-0B07FD0A88D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B062A8-ED6F-4726-B969-A5F053C3BE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B062A8-ED6F-4726-B969-A5F053C3BE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B062A8-ED6F-4726-B969-A5F053C3BE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B062A8-ED6F-4726-B969-A5F053C3BE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00998CAE-2EA7-4FB5-B059-001B505F5EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00998CAE-2EA7-4FB5-B059-001B505F5EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00998CAE-2EA7-4FB5-B059-001B505F5EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00998CAE-2EA7-4FB5-B059-001B505F5EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62353A23-17B6-432B-B4C6-837190BA2426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62353A23-17B6-432B-B4C6-837190BA2426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62353A23-17B6-432B-B4C6-837190BA2426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62353A23-17B6-432B-B4C6-837190BA2426}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{725972D7-F506-44CE-A911-610671D54242} = {69918790-0F55-4B2D-B32A-1FD8A0F6B1A9}
+		{C7992DCD-EDE2-43F0-87AD-83A960052BC0} = {69918790-0F55-4B2D-B32A-1FD8A0F6B1A9}
+		{185FF121-F37A-4B67-9CDB-F17C0A37F454} = {69918790-0F55-4B2D-B32A-1FD8A0F6B1A9}
+		{3C2B242E-D6CE-4CD2-99DA-AC8B2FA4A7F8} = {69918790-0F55-4B2D-B32A-1FD8A0F6B1A9}
+		{FC983C41-7928-4CAA-94E3-24FB7AEAFFAC} = {725972D7-F506-44CE-A911-610671D54242}
+		{4118CD7E-15E1-46D0-B6F5-40736FBB3350} = {7ADF5129-5A36-4406-B1AD-B18704E6DCEA}
+		{6A2BAFEC-78E9-4D8C-84A4-E9B4379294EB} = {7ADF5129-5A36-4406-B1AD-B18704E6DCEA}
+		{63FF770D-08C1-44B3-A696-0B07FD0A88D9} = {7ADF5129-5A36-4406-B1AD-B18704E6DCEA}
+		{65B062A8-ED6F-4726-B969-A5F053C3BE72} = {7ADF5129-5A36-4406-B1AD-B18704E6DCEA}
+		{00998CAE-2EA7-4FB5-B059-001B505F5EF1} = {699C8CED-0EBE-49E2-BD4F-356462D9B88D}
+		{62353A23-17B6-432B-B4C6-837190BA2426} = {699C8CED-0EBE-49E2-BD4F-356462D9B88D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EAB366D-BFC0-45F9-8AF7-BDC1B56BD0EA}
+	EndGlobalSection
+EndGlobal

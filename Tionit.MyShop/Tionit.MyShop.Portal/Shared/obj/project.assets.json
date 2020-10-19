@@ -1,0 +1,75 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Melkonyan\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Portal\\Shared\\Tionit.MyShop.Portal.Shared.csproj",
+      "projectName": "Tionit.MyShop.Portal.Shared",
+      "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Portal\\Shared\\Tionit.MyShop.Portal.Shared.csproj",
+      "packagesPath": "C:\\Users\\Melkonyan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Portal\\Shared\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Melkonyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\NuGet_machine_wide.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\192.168.77.1\\Shared\\Nuget": {},
+        "http://nuget.telerik.com/nuget": {},
+        "http://nuget.tionit.com/nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {},
+        "https://www.postsharp.net/nuget/packages": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

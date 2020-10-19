@@ -1,0 +1,231 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Server\\Tionit.MyShop.Admin.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Client\\Tionit.MyShop.Admin.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Client\\Tionit.MyShop.Admin.Client.csproj",
+        "projectName": "Tionit.MyShop.Admin.Client",
+        "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Client\\Tionit.MyShop.Admin.Client.csproj",
+        "packagesPath": "C:\\Users\\Melkonyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Melkonyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet_machine_wide.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\192.168.77.1\\Shared\\Nuget": {},
+          "http://nuget.telerik.com/nuget": {},
+          "http://nuget.tionit.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.postsharp.net/nuget/packages": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Shared\\Tionit.MyShop.Admin.Shared.csproj": {
+                "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Shared\\Tionit.MyShop.Admin.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Server\\Tionit.MyShop.Admin.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Server\\Tionit.MyShop.Admin.Server.csproj",
+        "projectName": "Tionit.MyShop.Admin.Server",
+        "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Server\\Tionit.MyShop.Admin.Server.csproj",
+        "packagesPath": "C:\\Users\\Melkonyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Melkonyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet_machine_wide.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\192.168.77.1\\Shared\\Nuget": {},
+          "http://nuget.telerik.com/nuget": {},
+          "http://nuget.tionit.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.postsharp.net/nuget/packages": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Client\\Tionit.MyShop.Admin.Client.csproj": {
+                "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Client\\Tionit.MyShop.Admin.Client.csproj"
+              },
+              "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Shared\\Tionit.MyShop.Admin.Shared.csproj": {
+                "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Shared\\Tionit.MyShop.Admin.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Shared\\Tionit.MyShop.Admin.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Shared\\Tionit.MyShop.Admin.Shared.csproj",
+        "projectName": "Tionit.MyShop.Admin.Shared",
+        "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Shared\\Tionit.MyShop.Admin.Shared.csproj",
+        "packagesPath": "C:\\Users\\Melkonyan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Admin\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Melkonyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet_machine_wide.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\192.168.77.1\\Shared\\Nuget": {},
+          "http://nuget.telerik.com/nuget": {},
+          "http://nuget.tionit.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.postsharp.net/nuget/packages": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

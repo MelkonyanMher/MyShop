@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Kr2d1WRlRFeq5EjU+l32oxLIxFbLOFzL5WPhd+fMrXMbTNismgW62TBo670x8tC1VV9k4bcLtlhXx5kDHBndtw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.ShopOnline.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Melkonyan\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.core\\3.2.1\\tionit.core.3.2.1.nupkg.sha512",
+    "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.workitemsannotations\\1.0.2\\tionit.workitemsannotations.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

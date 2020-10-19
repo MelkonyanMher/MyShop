@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Melkonyan\\Source\\Repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.SystemService.Application\\Tionit.MyShop.SystemService.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.SystemService.Application\\Tionit.MyShop.SystemService.Application.csproj",
       "projectName": "Tionit.MyShop.SystemService.Application",
-      "projectPath": "C:\\Users\\Melkonyan\\Source\\Repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.SystemService.Application\\Tionit.MyShop.SystemService.Application.csproj",
+      "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.SystemService.Application\\Tionit.MyShop.SystemService.Application.csproj",
       "packagesPath": "C:\\Users\\Melkonyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Melkonyan\\Source\\Repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.SystemService.Application\\obj\\",
+      "outputPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.SystemService.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

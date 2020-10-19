@@ -1,0 +1,95 @@
+﻿@inject NavigationManager NavigationManager
+@implements IDisposable
+
+@if (Submenu == null)
+{
+
+    <li class="kt-menu__item @(IsCurrentUrl ? "kt-menu__item--active" : "")" aria-haspopup="true">
+        <NavLink href="@Url" class="kt-menu__link">
+            <i class="kt-menu__link-icon @IconClass"></i>
+            <span class="kt-menu__link-text">@Text</span>
+        </NavLink>
+    </li>
+}
+else
+{
+    <li class="kt-menu__item kt-menu__item--submenu @(IsOpenedSubmenu? "kt-menu__item--open": "") @(IsCurrentSubmenu? "kt-menu__item--here": "")" aria-haspopup="true" data-ktmenu-submenu-toggle="hover">
+        <a href="javascript:;" class="kt-menu__link kt-menu__toggle" @onclick="@OpenOrCloseSubmenu">
+            <i class="kt-menu__link-icon @IconClass">
+                <span></span>
+            </i>
+            <span class="kt-menu__link-text">@Text</span><i class="kt-menu__ver-arrow la la-angle-right"></i>
+        </a>
+        <div class="kt-menu__submenu ">
+            <span class="kt-menu__arrow"></span>
+            <ul class="kt-menu__subnav">
+                @Submenu
+            </ul>
+        </div>
+    </li>
+}
+
+@code {
+
+    /// <summary>
+    /// URL, на который ведёт пункт меню
+    /// </summary>
+    [Parameter]
+    public string Url { get; set; }
+
+    /// <summary>
+    /// CSS-класс иконки
+    /// </summary>
+    [Parameter]
+    public string IconClass { get; set; }
+
+    /// <summary>
+    /// Текст пункта меню
+    /// </summary>
+    [Parameter]
+    public string Text { get; set; }
+
+    /// <summary>
+    /// Дочерние пункты меню
+    /// </summary>
+    [Parameter]
+    public RenderFragment Submenu { get; set; }
+
+    /// <summary>
+    /// Текущий Url является URL'ом, к которому ведёт этот пункт меню?
+    /// </summary>
+    private bool IsCurrentUrl => NavigationManager.Uri.ToLower().EndsWith(Url.ToLower());
+
+    /// <summary>
+    /// Это текущее открытое подменю
+    /// </summary>
+    private bool IsCurrentSubmenu => Submenu != null && NavigationManager.Uri.ToLower().Contains(Url.ToLower());
+
+    /// <summary>
+    /// Это подменю открыто
+    /// </summary>
+    private bool IsOpenedSubmenu { get; set; }
+
+    protected override void OnInitialized()
+    {
+        NavigationManager.LocationChanged += LocationChanged;
+
+        IsOpenedSubmenu = IsCurrentSubmenu;
+    }
+
+    private void LocationChanged(object sender, LocationChangedEventArgs e)
+    {
+        IsOpenedSubmenu = IsCurrentSubmenu;
+        StateHasChanged();
+    }
+
+    void IDisposable.Dispose()
+    {
+        NavigationManager.LocationChanged -= LocationChanged;
+    }
+
+    private void OpenOrCloseSubmenu()
+    {
+        IsOpenedSubmenu = !IsOpenedSubmenu;
+    }
+}

@@ -1,0 +1,51 @@
+﻿@page "/customer/products"
+@using Tionit.ShopOnline.Portal.Application.Queries.Products.Models;
+
+<link href="Pages/CustomerArea/Products.razor.css" rel="stylesheet" type="text/css" />
+
+
+<table border="1">
+    @foreach (var product in ProductList)
+    {
+        <tr>
+            <td>
+                <div class="kt-login__logo">
+                    <a>
+                        <img src="img/close-up-fashion-female-girl.jpg" width="300">
+                    </a>
+                </div>
+            </td>
+            <td style="vertical-align: top; width: 480px">
+                <div>
+                    @product.Name
+                </div>
+                <div>
+                    <p>Здесь написана информация о товаре</p>
+                    <p>Здесь написана другая информация о товаре</p>
+                    <p>Здесь написана описание товара</p>
+                    <p>Здесь нечего не написано о товаре</p>
+                    <p>
+                        <button disabled="@(product.Quantity <= 0 || !product.Quantity.HasValue)"
+                                class="button-size" @onclick="@(()=>AddProductToBasket(product))">                            
+                            Добавить в корзину
+                        </button>
+                    </p>
+                    <p>
+                        <span>Количество товара</span>
+                        <input type="number" class="product-count" @bind-value="product.Quantity" @bind-value:event="oninput" />
+                    </p>
+
+                </div>
+            </td>
+            <td>
+                <div class="price-size">
+                    @product.Price  ₽
+                </div>
+            </td>
+        </tr>
+    }
+</table>
+@if (!ShowAddButton)
+{
+    <button class="show-product" @onclick="@AddProductsCount"> Показать еще</button>
+}

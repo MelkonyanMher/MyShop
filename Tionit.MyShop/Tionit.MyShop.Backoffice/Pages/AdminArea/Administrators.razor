@@ -1,0 +1,69 @@
+﻿@page "/admin/admins"
+
+@using Tionit.ShopOnline.Backoffice.Application.Queries.Administrators.Models
+
+<div class="kt-portlet">
+    <div class="kt-portlet__head">
+        <div class="kt-portlet__head-label">
+            <span class="kt-portlet__head-icon">
+                <i class="flaticon2-group"></i>
+            </span>
+            <h3 class="kt-portlet__head-title">
+                Администраторы
+            </h3>
+        </div>
+        <div class="kt-portlet__head-toolbar">
+            <div class="">
+                <button id="CreateButton" name="CreateButton" @onclick="@ShowCreateWindow" class="btn btn-info btn-elevate btn-elevate-air">
+                    <i class="la la-plus"></i> Добавить администратора
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="kt-portlet__body">
+        <TelerikGrid Class="admin-grid" Data="@AdministratorsList" TotalCount="@TotalCount" Height="500px" Pageable="true" Sortable="true"
+                     FilterMode="GridFilterMode.FilterRow" OnRead="@OnGridNeedItems">
+            <GridColumns>
+                <GridColumn Field="Действие" Filterable="false" Width="170px">
+                    <Template>
+                        @{
+                            <div class="dropdown actions-column">
+                                <button class="btn btn-info actions-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="la la-cog"></i> Действия
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+                                    <a id="EditAdmin" class="dropdown-item" @onclick="@ShowEditWindow">
+                                        <i class="la la-edit"></i> Редактировать
+                                    </a>
+                                    <a id="RemoveAdmin" class="dropdown-item" @onclick="@RemoveAdministrator">
+                                        <i class="la la-trash"></i> Удалить
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    </Template>
+                </GridColumn>
+                <GridColumn Field="@(nameof(AdministratorModel.UserName))" Title="Логин" />
+                <GridColumn Field="@(nameof(AdministratorModel.Email))" Title="E-Mail"/>
+            </GridColumns>
+        </TelerikGrid>
+    </div>
+</div>
+<TelerikWindow Width="560px" Height="330px" Visible="@IsEditMode">
+    <WindowTitle>
+        <strong><i class="la la-pencil">Редактирование администратора</i></strong>
+    </WindowTitle>
+    <WindowActions>
+        <WindowAction Name="Close" OnClick="@CloseUpdateWindow" />
+    </WindowActions>
+    <WindowContent>
+        <div class="p-2">
+            <TelerikTextBox Id="administrator-login-id" Label="Логин" @bind-Value="@UserName" @bind-Value:event="ValueChanged" Class="full-width"/>
+            <TelerikTextBox Id="administrator-email-id" Label="E-mail" @bind-Value="@Email" @bind-Value:event="ValueChanged" Class="full-width"/>
+        </div>
+        <div class="float-right p-2 mt-2">
+            <button  id ="cancele-button-id" type="button" class="btn btn-outline-brand btn-elevate btn-elevate-air" @onclick="@CloseUpdateWindow">Отмена</button>            
+            <button id="save-button-id" class="btn btn-success btn-elevate btn-elevate-air" @onclick="@UpdateAdministrator" disabled="@(!IsVisibleSaveButton)">Сохранить</button>
+        </div>
+    </WindowContent>
+</TelerikWindow>

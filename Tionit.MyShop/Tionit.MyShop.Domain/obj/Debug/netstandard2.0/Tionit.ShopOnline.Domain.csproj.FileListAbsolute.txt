@@ -1,0 +1,17 @@
+C:\Users\Mkrtumyan\source\repos\Other\PrivateProjects\Mkrtumyan\Tionit.ShopOnline\Tionit.ShopOnline.Domain\bin\Debug\netstandard2.0\Tionit.ShopOnline.Domain.deps.json
+C:\Users\Mkrtumyan\source\repos\Other\PrivateProjects\Mkrtumyan\Tionit.ShopOnline\Tionit.ShopOnline.Domain\bin\Debug\netstandard2.0\Tionit.ShopOnline.Domain.dll
+C:\Users\Mkrtumyan\source\repos\Other\PrivateProjects\Mkrtumyan\Tionit.ShopOnline\Tionit.ShopOnline.Domain\bin\Debug\netstandard2.0\Tionit.ShopOnline.Domain.pdb
+C:\Users\Mkrtumyan\source\repos\Other\PrivateProjects\Mkrtumyan\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.csprojAssemblyReference.cache
+C:\Users\Mkrtumyan\source\repos\Other\PrivateProjects\Mkrtumyan\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.AssemblyInfoInputs.cache
+C:\Users\Mkrtumyan\source\repos\Other\PrivateProjects\Mkrtumyan\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.AssemblyInfo.cs
+C:\Users\Mkrtumyan\source\repos\Other\PrivateProjects\Mkrtumyan\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.dll
+C:\Users\Mkrtumyan\source\repos\Other\PrivateProjects\Mkrtumyan\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.pdb
+C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Domain\bin\Debug\netstandard2.0\Tionit.ShopOnline.Domain.deps.json
+C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Domain\bin\Debug\netstandard2.0\Tionit.ShopOnline.Domain.dll
+C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Domain\bin\Debug\netstandard2.0\Tionit.ShopOnline.Domain.pdb
+C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.csprojAssemblyReference.cache
+C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.AssemblyInfoInputs.cache
+C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.AssemblyInfo.cs
+C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.dll
+C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Domain\obj\Debug\netstandard2.0\Tionit.ShopOnline.Domain.pdb

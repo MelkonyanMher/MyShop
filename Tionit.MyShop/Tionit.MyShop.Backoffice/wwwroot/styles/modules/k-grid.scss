@@ -1,0 +1,5 @@
+﻿/*Создаем класс в гриде KendoUI для того, чтобы был виден дропдаун */
+td[role=gridcell] {
+    overflow: visible !important;
+    color: #6f717a;
+}

@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Components
+@using Telerik.Blazor.Components.RootComponent
+
+@inherits LayoutComponentBase
+@*@inject UserSession CurrentUserSession
+@inject NavigationManager NavigationManager*@
+
+<TelerikRootComponent>
+
+    @Body
+
+</TelerikRootComponent>
+
+
+@*@code {
+
+    public bool IsFirstRender;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        IsFirstRender = firstRender;
+
+        if (!CurrentUserSession.IsLoaded)
+        {
+            await CurrentUserSession.LoadSession();
+            StateHasChanged();
+        }
+
+        if (IsFirstRender && CurrentUserSession.IsSessionStarted)
+        {
+            NavigationManager.NavigateTo("/admin/admins");
+        }
+    }
+}*@

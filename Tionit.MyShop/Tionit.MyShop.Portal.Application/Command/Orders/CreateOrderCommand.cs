@@ -7,13 +7,13 @@ using Tionit.Enterprise;
 using Tionit.Enterprise.Exceptions;
 using Tionit.Enterprise.Validation;
 using Tionit.Net.Email;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Application.Contract.Infrastructure.MessageFormer;
-using Tionit.ShopOnline.Domain;
-using Tionit.ShopOnline.Portal.Application.Command.Orders.Models;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Application.Contract.Infrastructure.MessageFormer;
+using Tionit.MyShop.Domain;
+using Tionit.MyShop.Portal.Application.Command.Orders.Models;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Portal.Application.Command.Orders
+namespace Tionit.MyShop.Portal.Application.Command.Orders
 {
     /// <summary>
     /// Создание заказа
@@ -105,7 +105,7 @@ namespace Tionit.ShopOnline.Portal.Application.Command.Orders
             await emailEnqueuer
                 .To(administratorsEmail)
                 .SendingMode(SendingMode.Individual)
-                .Subject("Создание заказа в ShopOnline")
+                .Subject("Создание заказа в MyShop")
                 .Body(messageText)
                 .BodyFormat(EmailMessageBodyFormat.Html)
                 .EnqueueAsync();

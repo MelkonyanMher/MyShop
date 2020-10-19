@@ -1,7 +1,7 @@
 ﻿using System.Text;
-using Tionit.ShopOnline.Application.Contract.Infrastructure.MessageFormer;
+using Tionit.MyShop.Application.Contract.Infrastructure.MessageFormer;
 
-namespace Tionit.ShopOnline.Infrastructure.MessageFormers
+namespace Tionit.MyShop.Infrastructure.MessageFormers
 {
     public class OrderCreationNotificationMessageFormer : IOrderCreationNotificationMessageFormer
     {

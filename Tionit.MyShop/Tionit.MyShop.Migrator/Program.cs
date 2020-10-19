@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tionit.ShopOnline.Migrator
+namespace Tionit.MyShop.Migrator
 {
     class Program
     {

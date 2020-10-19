@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Tionit.Enterprise;
 
-namespace Tionit.ShopOnline.Application.Contract.RecurringJobs
+namespace Tionit.MyShop.Application.Contract.RecurringJobs
 {
     public interface IEmailQueueProcessingRecurringJob : IRecurringJob
     {

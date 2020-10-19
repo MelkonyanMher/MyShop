@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Domain;
 
-namespace Tionit.ShopOnline.Portal.Application.Queries.Baskets.Models
+namespace Tionit.MyShop.Portal.Application.Queries.Baskets.Models
 {
     public class ProductModelForBasket
     {

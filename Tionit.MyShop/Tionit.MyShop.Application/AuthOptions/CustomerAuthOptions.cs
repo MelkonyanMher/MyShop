@@ -1,7 +1,7 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace Tionit.ShopOnline.Application.AuthOptions
+namespace Tionit.MyShop.Application.AuthOptions
 {
     /// <summary>
     /// Опции авторизации по jwt-токену для админки

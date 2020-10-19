@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Text;
 using Tionit.Enterprise.Models;
 
-namespace Tionit.ShopOnline.Portal.Application.Command.OrderItems.Models
+namespace Tionit.MyShop.Portal.Application.Command.OrderItems.Models
 {
     public class AddProductToBasketInputModel : InputModelBase
     {

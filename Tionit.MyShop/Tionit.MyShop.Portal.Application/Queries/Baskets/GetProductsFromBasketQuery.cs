@@ -4,12 +4,12 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Domain;
-using Tionit.ShopOnline.Portal.Application.Queries.Baskets.Models;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Domain;
+using Tionit.MyShop.Portal.Application.Queries.Baskets.Models;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Portal.Application.Queries.Baskets
+namespace Tionit.MyShop.Portal.Application.Queries.Baskets
 {
     public class GetProductsFromBasketQuery
     {

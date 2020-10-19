@@ -20,13 +20,13 @@ using Tionit.Enterprise.HangfireRecurringJobs;
 using Tionit.Net.Email;
 using Tionit.Net.Email.EFCoreEmailQueueRepository;
 using Tionit.Persistence;
-using Tionit.ShopOnline.Application;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Persistence;
-using Tionit.ShopOnline.SystemService.Application.Administrators;
-using Tionit.ShopOnline.SystemService.Application.RecurringJobs;
+using Tionit.MyShop.Application;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Persistence;
+using Tionit.MyShop.SystemService.Application.Administrators;
+using Tionit.MyShop.SystemService.Application.RecurringJobs;
 
-namespace Tionit.ShopOnline.SystemService
+namespace Tionit.MyShop.SystemService
 {
     public class Startup
     {
@@ -88,7 +88,7 @@ namespace Tionit.ShopOnline.SystemService
             //лог
             services.AddScoped<IAuditLogRepository>(c => new EntityAuditLogRepository(connectionString));
             services.AddScoped<IAuditLogger>(c => AuditLogger
-                    .StartInitialization(c.GetService<IAuditLogRepository>(), "ShopOnline")
+                    .StartInitialization(c.GetService<IAuditLogRepository>(), "MyShop")
                     .UserInfoProvider(c.GetService<IUserInfoProvider>())
                     .EmailConfiguration(c.GetService<IEmailEnqueuer>(), systemEmail)
                     .Subsystem("Системная служба")

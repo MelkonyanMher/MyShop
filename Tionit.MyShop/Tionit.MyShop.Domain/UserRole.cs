@@ -1,6 +1,6 @@
 ﻿using Tionit.BuiltInDictionaries;
 
-namespace Tionit.ShopOnline.Domain
+namespace Tionit.MyShop.Domain
 {
     /// <summary>
     /// Роль пользователя

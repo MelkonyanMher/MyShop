@@ -1,4 +1,4 @@
-﻿namespace Tionit.ShopOnline.Application.Contract
+﻿namespace Tionit.MyShop.Application.Contract
 {
     /// <summary>
     /// Компонент для проверки прав доступа

@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tionit.ShopOnline.Persistence\Tionit.ShopOnline.Persistence.csproj" />
+    <ProjectReference Include="..\Tionit.MyShop.Persistence\Tionit.MyShop.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

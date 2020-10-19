@@ -1,4 +1,4 @@
-﻿namespace Tionit.ShopOnline.Application.Contract.Infrastructure.MessageFormer
+﻿namespace Tionit.MyShop.Application.Contract.Infrastructure.MessageFormer
 {
     /// <summary>
     /// Формирователь текста сообщения при создании заказа

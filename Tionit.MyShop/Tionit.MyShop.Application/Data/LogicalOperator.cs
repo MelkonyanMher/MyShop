@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tionit.ShopOnline.Application.Data
+namespace Tionit.MyShop.Application.Data
 {
     /// <summary>
     /// Логическа операция для фильтров

@@ -21,3 +21,5 @@ C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Persistence\obj\D
 C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Persistence\obj\Debug\netstandard2.1\Tionit.ShopOnline.Persistence.csproj.CopyComplete
 C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Persistence\obj\Debug\netstandard2.1\Tionit.ShopOnline.Persistence.dll
 C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Persistence\obj\Debug\netstandard2.1\Tionit.ShopOnline.Persistence.pdb
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\obj\Debug\netstandard2.1\Tionit.ShopOnline.Persistence.dll
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\obj\Debug\netstandard2.1\Tionit.ShopOnline.Persistence.pdb

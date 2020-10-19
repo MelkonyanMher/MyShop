@@ -3,12 +3,12 @@ using AutoMapper.QueryableExtensions;
 using System.Linq;
 using System.Threading.Tasks;
 using Tionit.AuditLogging;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Backoffice.Application.Queries.Log.Models;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Backoffice.Application.Queries.Log.Models;
 using Telerik.DataSource;
 using Telerik.DataSource.Extensions;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Queries.Log
+namespace Tionit.MyShop.Backoffice.Application.Queries.Log
 {
     public class GetLogEntriesQuery
     {

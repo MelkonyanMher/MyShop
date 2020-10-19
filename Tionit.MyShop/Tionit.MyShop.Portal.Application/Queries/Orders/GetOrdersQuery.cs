@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Tionit.Enterprise.Validation;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Domain;
-using Tionit.ShopOnline.Portal.Application.Queries.Orders.Models;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Domain;
+using Tionit.MyShop.Portal.Application.Queries.Orders.Models;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Portal.Application.Queries.Orders
+namespace Tionit.MyShop.Portal.Application.Queries.Orders
 {
     /// <summary>
     /// Возвращает все заказы клиента

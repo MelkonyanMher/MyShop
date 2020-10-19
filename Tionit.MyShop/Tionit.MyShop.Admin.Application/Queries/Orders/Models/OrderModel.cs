@@ -2,9 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Domain;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Queries.Orders.Models
+namespace Tionit.MyShop.Backoffice.Application.Queries.Orders.Models
 {
     public class OrderModel
     {

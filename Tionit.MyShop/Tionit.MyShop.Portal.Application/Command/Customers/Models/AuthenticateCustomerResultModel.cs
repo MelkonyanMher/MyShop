@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Domain;
 
-namespace Tionit.ShopOnline.Portal.Application.Command.Customers.Models
+namespace Tionit.MyShop.Portal.Application.Command.Customers.Models
 {
     public class AuthenticateCustomerResultModel
     {

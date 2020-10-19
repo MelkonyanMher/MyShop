@@ -1,8 +1,8 @@
 ﻿using System;
 using AutoMapper;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Domain;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Queries.Administrators.Models
+namespace Tionit.MyShop.Backoffice.Application.Queries.Administrators.Models
 {
     /// <summary>
     /// Модель администратора

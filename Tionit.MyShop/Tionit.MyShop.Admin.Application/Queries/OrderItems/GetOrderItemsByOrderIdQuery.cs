@@ -8,11 +8,11 @@ using Telerik.DataSource.Extensions;
 using Tionit.Enterprise.Exceptions;
 using Tionit.Enterprise.Validation;
 using Tionit.Persistence;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Backoffice.Application.Queries.OrderItems.Models;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Backoffice.Application.Queries.OrderItems.Models;
+using Tionit.MyShop.Domain;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Queries.OrderItems
+namespace Tionit.MyShop.Backoffice.Application.Queries.OrderItems
 {
     /// <summary>
     /// Возврашяет все позиции заказа

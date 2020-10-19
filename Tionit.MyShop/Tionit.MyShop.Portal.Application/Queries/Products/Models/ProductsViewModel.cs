@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Tionit.ShopOnline.Portal.Application.Queries.Products.Models
+namespace Tionit.MyShop.Portal.Application.Queries.Products.Models
 {
     public class ProductsViewModel
     {

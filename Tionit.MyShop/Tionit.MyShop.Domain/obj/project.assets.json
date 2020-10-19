@@ -327,9 +327,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.ShopOnline.Domain.csproj",
-      "projectName": "Tionit.ShopOnline.Domain",
-      "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.ShopOnline.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj",
+      "projectName": "Tionit.MyShop.Domain",
+      "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj",
       "packagesPath": "C:\\Users\\Melkonyan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\obj\\",
       "projectStyle": "PackageReference",

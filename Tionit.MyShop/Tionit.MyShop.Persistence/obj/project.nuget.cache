@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wSELtTKWommdsysxzACXLO9VA7f9UpoMjrQVI/i7dkPQA0sTKbZD1UcdDUHXTCG4qzilPdadfcHz0PJSDURHEg==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Persistence\\Tionit.ShopOnline.Persistence.csproj",
+  "dgSpecHash": "KwtfT8KKVoNOvLK8POw+cjD16+yMAFp7ITH0USUPgMttyLsIVOi4ItJdCEASOuxfpZ1Ix39rknoDT3tE77ZxIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Persistence\\Tionit.MyShop.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Melkonyan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Melkonyan\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
@@ -129,18 +129,9 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.core\\3.1.7.2\\tionit.core.3.1.7.2.nupkg.sha512",
-    "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.persistence\\2.0.0.2\\tionit.persistence.2.0.0.2.nupkg.sha512"
+    "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.core\\3.2.1\\tionit.core.3.2.1.nupkg.sha512",
+    "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.persistence\\2.0.0.2\\tionit.persistence.2.0.0.2.nupkg.sha512",
+    "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.workitemsannotations\\1.0.2\\tionit.workitemsannotations.1.0.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  "logs": []
 }

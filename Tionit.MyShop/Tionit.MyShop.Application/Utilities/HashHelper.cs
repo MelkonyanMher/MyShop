@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace Tionit.ShopOnline.Application.Utilities
+namespace Tionit.MyShop.Application.Utilities
 {
     /// <summary>
     /// Хеш-хелпер

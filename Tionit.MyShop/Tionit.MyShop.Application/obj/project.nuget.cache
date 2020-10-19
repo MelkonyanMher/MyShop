@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Gb9N/532leyUyngLI1if+A2aZsBpMsbejeWAvqnwO8fM7VU+JGyQXwB/gizr1Mj8Y0qsNs3xI3itavN/ZJgNyQ==",
-  "success": false,
+  "dgSpecHash": "oSBOIZhC3Mqjg1KykodFUAOXhyPPZnPKGAto1VeVd1Nl/AhP5RCy/l0NVE8/Bbpim2SvedkEmV/DUNk05u3WXQ==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Application\\Tionit.MyShop.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Melkonyan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
@@ -32,7 +32,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
-    "C:\\Users\\Melkonyan\\.nuget\\packages\\system.componentmodel.annotations\\4.4.0\\system.componentmodel.annotations.4.4.0.nupkg.sha512",
+    "C:\\Users\\Melkonyan\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Melkonyan\\.nuget\\packages\\system.data.common\\4.3.0\\system.data.common.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Melkonyan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.4.1\\system.diagnostics.diagnosticsource.4.4.1.nupkg.sha512",
@@ -75,17 +75,8 @@
     "C:\\Users\\Melkonyan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Users\\Melkonyan\\.nuget\\packages\\telerik.datasource\\1.4.0\\telerik.datasource.1.4.0.nupkg.sha512",
     "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.core\\3.2.1\\tionit.core.3.2.1.nupkg.sha512",
-    "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.persistence\\1.1.6.3\\tionit.persistence.1.1.6.3.nupkg.sha512"
+    "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.persistence\\1.1.6.3\\tionit.persistence.1.1.6.3.nupkg.sha512",
+    "C:\\Users\\Melkonyan\\.nuget\\packages\\tionit.workitemsannotations\\1.0.2\\tionit.workitemsannotations.1.0.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  "logs": []
 }

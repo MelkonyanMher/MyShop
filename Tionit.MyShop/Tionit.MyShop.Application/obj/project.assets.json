@@ -427,7 +427,7 @@
           "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
-      "System.ComponentModel.Annotations/4.4.0": {
+      "System.ComponentModel.Annotations/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.ComponentModel.Annotations.dll": {}
@@ -1042,6 +1042,30 @@
         },
         "runtime": {
           "lib/netstandard2.0/Tionit.Persistence.dll": {}
+        }
+      },
+      "Tionit.WorkItemsAnnotations/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Tionit.WorkItemsAnnotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Tionit.WorkItemsAnnotations.dll": {}
+        }
+      },
+      "Tionit.MyShop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0",
+          "Tionit.Core": "3.2.1",
+          "Tionit.WorkItemsAnnotations": "1.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Tionit.MyShop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tionit.MyShop.Domain.dll": {}
         }
       }
     }
@@ -1884,10 +1908,10 @@
         "version.txt"
       ]
     },
-    "System.ComponentModel.Annotations/4.4.0": {
-      "sha512": "29K3DQ+IGU7LBaMjTo7SI7T7X/tsMtLvz1p56LJ556Iu0Dw3pKZw5g8yCYCWMRxrOF0Hr0FU0FwW0o42y2sb3A==",
+    "System.ComponentModel.Annotations/4.7.0": {
+      "sha512": "0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
       "type": "package",
-      "path": "system.componentmodel.annotations/4.4.0",
+      "path": "system.componentmodel.annotations/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1898,9 +1922,10 @@
         "lib/net45/_._",
         "lib/net461/System.ComponentModel.Annotations.dll",
         "lib/netcore50/System.ComponentModel.Annotations.dll",
-        "lib/netcoreapp2.0/_._",
         "lib/netstandard1.4/System.ComponentModel.Annotations.dll",
         "lib/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.xml",
         "lib/portable-net45+win8/_._",
         "lib/win8/_._",
         "lib/xamarinios10/_._",
@@ -1923,7 +1948,6 @@
         "ref/netcore50/ru/System.ComponentModel.Annotations.xml",
         "ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml",
         "ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml",
-        "ref/netcoreapp2.0/_._",
         "ref/netstandard1.1/System.ComponentModel.Annotations.dll",
         "ref/netstandard1.1/System.ComponentModel.Annotations.xml",
         "ref/netstandard1.1/de/System.ComponentModel.Annotations.xml",
@@ -1959,13 +1983,15 @@
         "ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml",
         "ref/netstandard2.0/System.ComponentModel.Annotations.dll",
         "ref/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.xml",
         "ref/portable-net45+win8/_._",
         "ref/win8/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.4.4.0.nupkg.sha512",
+        "system.componentmodel.annotations.4.7.0.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -4153,15 +4179,31 @@
         "tionit.persistence.1.1.6.3.nupkg.sha512",
         "tionit.persistence.nuspec"
       ]
+    },
+    "Tionit.WorkItemsAnnotations/1.0.2": {
+      "sha512": "AB9Y9K/l/BnRVjbgAn1KTQXXYhmvb8G/O6FnY4IBDvZUXntYPalpeqeDZ+Ay2ljHh89nwnCYUJk7iS2lx4c7VA==",
+      "type": "package",
+      "path": "tionit.workitemsannotations/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Tionit.WorkItemsAnnotations.dll",
+        "tionit.workitemsannotations.1.0.2.nupkg.sha512",
+        "tionit.workitemsannotations.nuspec"
+      ]
+    },
+    "Tionit.MyShop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Tionit.MyShop.Domain/Tionit.MyShop.Domain.csproj",
+      "msbuildProject": "../Tionit.MyShop.Domain/Tionit.MyShop.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj",
       "Microsoft.IdentityModel.Tokens >= 5.6.0",
       "NETStandard.Library >= 2.0.3",
       "Telerik.DataSource >= 1.4.0",
       "Tionit.Core >= 3.2.1",
+      "Tionit.MyShop.Domain >= 1.0.0",
       "Tionit.Persistence >= 1.1.6.3"
     ]
   },
@@ -4201,8 +4243,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj": {
-              "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj"
+            "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj": {
+              "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj"
             }
           }
         }
@@ -4252,16 +4294,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

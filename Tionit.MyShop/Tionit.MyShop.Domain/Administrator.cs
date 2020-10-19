@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Tionit.Enterprise;
 
-namespace Tionit.ShopOnline.Domain
+namespace Tionit.MyShop.Domain
 {
     /// <summary>
     /// Администратор

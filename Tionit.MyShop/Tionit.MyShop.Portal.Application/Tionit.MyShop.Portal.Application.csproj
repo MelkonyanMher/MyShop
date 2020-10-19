@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tionit.ShopOnline.Domain\Tionit.ShopOnline.Domain.csproj" />
-    <ProjectReference Include="..\Tionit.ShopOnline.Application\Tionit.ShopOnline.Application.csproj" />
+    <ProjectReference Include="..\Tionit.MyShop.Domain\Tionit.MyShop.Domain.csproj" />
+    <ProjectReference Include="..\Tionit.MyShop.Application\Tionit.MyShop.Application.csproj" />
   </ItemGroup>
 
 </Project>

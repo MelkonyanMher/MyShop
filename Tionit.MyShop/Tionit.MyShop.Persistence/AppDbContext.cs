@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Tionit.ShopOnline.Persistence.EntityConfigs;
+using Tionit.MyShop.Persistence.EntityConfigs;
 
-namespace Tionit.ShopOnline.Persistence
+namespace Tionit.MyShop.Persistence
 {
     public class AppDbContext : DbContext
     {

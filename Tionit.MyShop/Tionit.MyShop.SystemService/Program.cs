@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting.WindowsServices;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Tionit.ShopOnline.SystemService
+namespace Tionit.MyShop.SystemService
 {
     public class Program
     {

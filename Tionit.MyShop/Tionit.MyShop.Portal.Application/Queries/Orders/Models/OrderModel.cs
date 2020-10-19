@@ -2,9 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Domain;
 
-namespace Tionit.ShopOnline.Portal.Application.Queries.Orders.Models
+namespace Tionit.MyShop.Portal.Application.Queries.Orders.Models
 {
     /// <summary>
     /// Модель заказа

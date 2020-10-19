@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Domain;
 
-namespace Tionit.ShopOnline.Persistence.EntityConfigs
+namespace Tionit.MyShop.Persistence.EntityConfigs
 {
     class ProductConfig : IEntityTypeConfiguration<Product>
     {

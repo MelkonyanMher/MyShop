@@ -1,10 +1,10 @@
 ﻿
 using AutoMapper;
 using System;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Domain;
 using System.ComponentModel.DataAnnotations;
 
-namespace Tionit.ShopOnline.Portal.Application.Queries.Products.Models
+namespace Tionit.MyShop.Portal.Application.Queries.Products.Models
 {
     public class ProductModel
     {

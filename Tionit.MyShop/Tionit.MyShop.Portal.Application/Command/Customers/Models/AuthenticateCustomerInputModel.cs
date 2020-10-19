@@ -1,7 +1,7 @@
 ﻿using Tionit.Enterprise.Models;
 using Tionit.Enterprise.Models.Attributes;
 
-namespace Tionit.ShopOnline.Portal.Application.Command.Customers.Models
+namespace Tionit.MyShop.Portal.Application.Command.Customers.Models
 {
     public class AuthenticateCustomerInputModel : InputModelBase
     {

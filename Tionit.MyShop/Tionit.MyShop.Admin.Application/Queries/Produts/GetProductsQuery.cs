@@ -5,12 +5,12 @@ using AutoMapper.QueryableExtensions;
 using Microsoft.EntityFrameworkCore;
 using Telerik.DataSource;
 using Telerik.DataSource.Extensions;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Backoffice.Application.Queries.Produts.Models;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Backoffice.Application.Queries.Produts.Models;
+using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Queries.Produts
+namespace Tionit.MyShop.Backoffice.Application.Queries.Produts
 {
     public class GetProductsQuery
     {

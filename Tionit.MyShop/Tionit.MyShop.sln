@@ -17,11 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Migrator", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Application", "Tionit.MyShop.Application\Tionit.MyShop.Application.csproj", "{66082A40-3C8B-483B-A26F-E64B9BF8084F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.ShopOnline.Domain", "Tionit.MyShop.Domain\Tionit.ShopOnline.Domain.csproj", "{45D864F7-7D01-4030-B1F9-18B41675ED61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Domain", "Tionit.MyShop.Domain\Tionit.MyShop.Domain.csproj", "{45D864F7-7D01-4030-B1F9-18B41675ED61}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.ShopOnline.Persistence", "Tionit.MyShop.Persistence\Tionit.ShopOnline.Persistence.csproj", "{0CD7F4D5-BD24-45AA-B30C-150AA71D0723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Persistence", "Tionit.MyShop.Persistence\Tionit.MyShop.Persistence.csproj", "{0CD7F4D5-BD24-45AA-B30C-150AA71D0723}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.ShopOnline.Infrastructure", "Tionit.MyShop.Infrastructure\Tionit.ShopOnline.Infrastructure.csproj", "{9938FD4D-387F-4689-BF13-F5BDEAABF93C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Infrastructure", "Tionit.MyShop.Infrastructure\Tionit.MyShop.Infrastructure.csproj", "{9938FD4D-387F-4689-BF13-F5BDEAABF93C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Admin.Application", "Tionit.MyShop.Admin.Application\Tionit.MyShop.Admin.Application.csproj", "{4B3A081F-2AA7-4F5A-85DB-D6B5D1D995D2}"
 EndProject
@@ -31,17 +31,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.SystemService
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.SystemService.Application", "Tionit.MyShop.SystemService.Application\Tionit.MyShop.SystemService.Application.csproj", "{3F49F8AF-750E-4826-AA01-A795B1A8E09C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tionit.MyShop.Portal.Server", "Tionit.MyShop.Portal\Server\Tionit.MyShop.Portal.Server.csproj", "{E906F51B-FCD9-4FCE-B137-41DC5760E828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Portal.Server", "Tionit.MyShop.Portal\Server\Tionit.MyShop.Portal.Server.csproj", "{E906F51B-FCD9-4FCE-B137-41DC5760E828}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tionit.MyShop.Portal.Client", "Tionit.MyShop.Portal\Client\Tionit.MyShop.Portal.Client.csproj", "{FA7C6367-1522-4019-972D-770B7B284F59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Portal.Client", "Tionit.MyShop.Portal\Client\Tionit.MyShop.Portal.Client.csproj", "{FA7C6367-1522-4019-972D-770B7B284F59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tionit.MyShop.Portal.Shared", "Tionit.MyShop.Portal\Shared\Tionit.MyShop.Portal.Shared.csproj", "{F9C7D87C-C36E-4891-8510-46B47AFF2E01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Portal.Shared", "Tionit.MyShop.Portal\Shared\Tionit.MyShop.Portal.Shared.csproj", "{F9C7D87C-C36E-4891-8510-46B47AFF2E01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tionit.MyShop.Admin.Server", "Tionit.MyShop.Admin\Server\Tionit.MyShop.Admin.Server.csproj", "{4F6A5765-78A3-4AFB-9680-2D48ACB96B96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Admin.Server", "Tionit.MyShop.Admin\Server\Tionit.MyShop.Admin.Server.csproj", "{4F6A5765-78A3-4AFB-9680-2D48ACB96B96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tionit.MyShop.Admin.Client", "Tionit.MyShop.Admin\Client\Tionit.MyShop.Admin.Client.csproj", "{0A268990-481F-4818-BF66-9411B33AD46A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Admin.Client", "Tionit.MyShop.Admin\Client\Tionit.MyShop.Admin.Client.csproj", "{0A268990-481F-4818-BF66-9411B33AD46A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tionit.MyShop.Admin.Shared", "Tionit.MyShop.Admin\Shared\Tionit.MyShop.Admin.Shared.csproj", "{A728250A-EE63-4AAA-A4EC-1132DAEA136C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MyShop.Admin.Shared", "Tionit.MyShop.Admin\Shared\Tionit.MyShop.Admin.Shared.csproj", "{A728250A-EE63-4AAA-A4EC-1132DAEA136C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

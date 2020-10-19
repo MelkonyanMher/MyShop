@@ -1,7 +1,7 @@
 ﻿using Tionit.Enterprise.Models;
 using Tionit.Enterprise.Models.Attributes;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Commands.Administrators.Models
+namespace Tionit.MyShop.Backoffice.Application.Commands.Administrators.Models
 {
     public class AuthenticateAdministratorInputModel : InputModelBase
     {

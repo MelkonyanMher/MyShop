@@ -1,9 +1,9 @@
 ﻿using Tionit.Enterprise;
 using Tionit.Enterprise.Exceptions;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Domain;
 
-namespace Tionit.ShopOnline.Application
+namespace Tionit.MyShop.Application
 {
     public class AccessRightChecker : IAccessRightChecker
     {

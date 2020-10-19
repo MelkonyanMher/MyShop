@@ -3,7 +3,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using Telerik.DataSource;
 
-namespace Tionit.ShopOnline.Application.Data
+namespace Tionit.MyShop.Application.Data
 {
     public class DataRequest
     {

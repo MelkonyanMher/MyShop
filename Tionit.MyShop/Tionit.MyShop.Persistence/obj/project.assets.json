@@ -1961,7 +1961,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Tionit.Core/3.1.7.2": {
+      "Tionit.Core/3.2.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Tionit.Core.dll": {}
@@ -1981,6 +1981,30 @@
         },
         "runtime": {
           "lib/netstandard2.1/Tionit.Persistence.dll": {}
+        }
+      },
+      "Tionit.WorkItemsAnnotations/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Tionit.WorkItemsAnnotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Tionit.WorkItemsAnnotations.dll": {}
+        }
+      },
+      "Tionit.MyShop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0",
+          "Tionit.Core": "3.2.1",
+          "Tionit.WorkItemsAnnotations": "1.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Tionit.MyShop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tionit.MyShop.Domain.dll": {}
         }
       }
     }
@@ -6916,14 +6940,14 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Tionit.Core/3.1.7.2": {
-      "sha512": "rKbKd8DPP0pgOieA2iJuipSZUqPLkFRfWkjAZ91OtMRSkizxm9Z7rBeotdveUbTZ9h0uJCj9gAtGDOSv7xzcVA==",
+    "Tionit.Core/3.2.1": {
+      "sha512": "oFY+/iRb+cEeu1hfmtM8ELawoHGA7OhLqX0b2H70lV8qC6cgVIeuGxkiIN7S1lywPRy1gfl5QRPtoa4e4sOb9w==",
       "type": "package",
-      "path": "tionit.core/3.1.7.2",
+      "path": "tionit.core/3.2.1",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Tionit.Core.dll",
-        "tionit.core.3.1.7.2.nupkg.sha512",
+        "tionit.core.3.2.1.nupkg.sha512",
         "tionit.core.nuspec"
       ]
     },
@@ -6937,14 +6961,30 @@
         "tionit.persistence.2.0.0.2.nupkg.sha512",
         "tionit.persistence.nuspec"
       ]
+    },
+    "Tionit.WorkItemsAnnotations/1.0.2": {
+      "sha512": "AB9Y9K/l/BnRVjbgAn1KTQXXYhmvb8G/O6FnY4IBDvZUXntYPalpeqeDZ+Ay2ljHh89nwnCYUJk7iS2lx4c7VA==",
+      "type": "package",
+      "path": "tionit.workitemsannotations/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/Tionit.WorkItemsAnnotations.dll",
+        "tionit.workitemsannotations.1.0.2.nupkg.sha512",
+        "tionit.workitemsannotations.nuspec"
+      ]
+    },
+    "Tionit.MyShop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Tionit.MyShop.Domain/Tionit.MyShop.Domain.csproj",
+      "msbuildProject": "../Tionit.MyShop.Domain/Tionit.MyShop.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
+      "Tionit.MyShop.Domain >= 1.0.0",
       "Tionit.Persistence >= 2.0.0.2"
     ]
   },
@@ -6955,9 +6995,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Persistence\\Tionit.ShopOnline.Persistence.csproj",
-      "projectName": "Tionit.ShopOnline.Persistence",
-      "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Persistence\\Tionit.ShopOnline.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Persistence\\Tionit.MyShop.Persistence.csproj",
+      "projectName": "Tionit.MyShop.Persistence",
+      "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Persistence\\Tionit.MyShop.Persistence.csproj",
       "packagesPath": "C:\\Users\\Melkonyan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Persistence\\obj\\",
       "projectStyle": "PackageReference",
@@ -6984,8 +7024,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj": {
-              "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj"
+            "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj": {
+              "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj"
             }
           }
         }
@@ -7038,16 +7078,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.ShopOnline.Domain\\Tionit.ShopOnline.Domain.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }

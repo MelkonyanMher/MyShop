@@ -4,13 +4,13 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Tionit.AuditLogging;
 using Tionit.Enterprise.Validation;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Application.Utilities;
-using Tionit.ShopOnline.Backoffice.Application.Commands.Customers.Models;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Application.Utilities;
+using Tionit.MyShop.Backoffice.Application.Commands.Customers.Models;
+using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Commands.Customers
+namespace Tionit.MyShop.Backoffice.Application.Commands.Customers
 {
     public class CreateCustomerCommand
     {

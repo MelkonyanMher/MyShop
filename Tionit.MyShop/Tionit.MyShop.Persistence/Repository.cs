@@ -1,7 +1,7 @@
 ﻿using Tionit.Enterprise;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Persistence
+namespace Tionit.MyShop.Persistence
 {
     /// <summary>
     /// Репозиторий

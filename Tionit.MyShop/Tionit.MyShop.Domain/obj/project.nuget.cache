@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kr2d1WRlRFeq5EjU+l32oxLIxFbLOFzL5WPhd+fMrXMbTNismgW62TBo670x8tC1VV9k4bcLtlhXx5kDHBndtw==",
+  "dgSpecHash": "nDarA4nAyuY2/avc9FZj3bws10boS1qguHgZu3PdpZBBMYLEHd2VpzdTJc1LGTeeGAw3kxu2wNfp2d2IFLbOXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.ShopOnline.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

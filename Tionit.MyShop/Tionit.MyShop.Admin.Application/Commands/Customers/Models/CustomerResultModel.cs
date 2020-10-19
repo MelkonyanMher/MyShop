@@ -1,4 +1,4 @@
-﻿namespace Tionit.ShopOnline.Backoffice.Application.Commands.Customers.Models
+﻿namespace Tionit.MyShop.Backoffice.Application.Commands.Customers.Models
 {
     /// <summary>
     /// Возвращаемая модел клиента

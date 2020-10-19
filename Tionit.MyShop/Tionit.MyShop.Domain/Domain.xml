@@ -464,6 +464,6 @@
   <XmlFileTextBoxText>C:\tfs\GiftCertificatesProcessingCenter\Development\GCPC\Tionit.GCPC.Core\bin\Debug\Tionit.GCPC.Core.xml</XmlFileTextBoxText>
   <NamespaceTextBoxText>Tionit.GCPC.Core.Domain</NamespaceTextBoxText>
   <EdmxFilePathTextBoxText>C:\tfs\GiftCertificatesProcessingCenter\Development\GCPC\Tionit.GCPC.Core\Domain\DomainModel.edmx</EdmxFilePathTextBoxText>
-  <ProjectName>ShopOnline</ProjectName>
-  <RootDirectory>C:\Users\Mkrtumyan\Desktop\ShopOnline</RootDirectory>
+  <ProjectName>MyShop</ProjectName>
+  <RootDirectory>C:\Users\Mkrtumyan\Desktop\MyShop</RootDirectory>
 </SolutionGeneratorData>

@@ -1,0 +1,9 @@
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin\Shared\bin\Debug\netstandard2.1\Tionit.MyShop.Admin.Shared.deps.json
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin\Shared\bin\Debug\netstandard2.1\Tionit.MyShop.Admin.Shared.dll
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin\Shared\bin\Debug\netstandard2.1\Tionit.MyShop.Admin.Shared.pdb
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin\Shared\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Shared.csprojAssemblyReference.cache
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin\Shared\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Shared.AssemblyInfoInputs.cache
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin\Shared\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Shared.AssemblyInfo.cs
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin\Shared\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin\Shared\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Shared.dll
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin\Shared\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Shared.pdb

@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Tionit.ShopOnline.Persistence;
+using Tionit.MyShop.Persistence;
 
-namespace Tionit.ShopOnline.Persistence.Migrations
+namespace Tionit.MyShop.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20200130104436_1_0_0_3")]
@@ -21,7 +21,7 @@ namespace Tionit.ShopOnline.Persistence.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Tionit.ShopOnline.Domain.Administrator", b =>
+            modelBuilder.Entity("Tionit.MyShop.Domain.Administrator", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -47,7 +47,7 @@ namespace Tionit.ShopOnline.Persistence.Migrations
                     b.ToTable("Administrator");
                 });
 
-            modelBuilder.Entity("Tionit.ShopOnline.Domain.Customer", b =>
+            modelBuilder.Entity("Tionit.MyShop.Domain.Customer", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -73,7 +73,7 @@ namespace Tionit.ShopOnline.Persistence.Migrations
                     b.ToTable("Customer");
                 });
 
-            modelBuilder.Entity("Tionit.ShopOnline.Domain.Order", b =>
+            modelBuilder.Entity("Tionit.MyShop.Domain.Order", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -98,7 +98,7 @@ namespace Tionit.ShopOnline.Persistence.Migrations
                     b.ToTable("Order");
                 });
 
-            modelBuilder.Entity("Tionit.ShopOnline.Domain.OrderItem", b =>
+            modelBuilder.Entity("Tionit.MyShop.Domain.OrderItem", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -122,7 +122,7 @@ namespace Tionit.ShopOnline.Persistence.Migrations
                     b.ToTable("OrderItem");
                 });
 
-            modelBuilder.Entity("Tionit.ShopOnline.Domain.Product", b =>
+            modelBuilder.Entity("Tionit.MyShop.Domain.Product", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -140,24 +140,24 @@ namespace Tionit.ShopOnline.Persistence.Migrations
                     b.ToTable("Product");
                 });
 
-            modelBuilder.Entity("Tionit.ShopOnline.Domain.Order", b =>
+            modelBuilder.Entity("Tionit.MyShop.Domain.Order", b =>
                 {
-                    b.HasOne("Tionit.ShopOnline.Domain.Customer", "Customer")
+                    b.HasOne("Tionit.MyShop.Domain.Customer", "Customer")
                         .WithMany("Orders")
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Tionit.ShopOnline.Domain.OrderItem", b =>
+            modelBuilder.Entity("Tionit.MyShop.Domain.OrderItem", b =>
                 {
-                    b.HasOne("Tionit.ShopOnline.Domain.Order", "Order")
+                    b.HasOne("Tionit.MyShop.Domain.Order", "Order")
                         .WithMany("OrderItems")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Tionit.ShopOnline.Domain.Product", "Product")
+                    b.HasOne("Tionit.MyShop.Domain.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)

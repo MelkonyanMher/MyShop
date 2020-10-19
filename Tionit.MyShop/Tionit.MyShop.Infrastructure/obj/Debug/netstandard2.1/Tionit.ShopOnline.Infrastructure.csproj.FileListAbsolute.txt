@@ -25,3 +25,5 @@ C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Infrastructure\ob
 C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Infrastructure\obj\Debug\netstandard2.1\Tionit.ShopOnline.Infrastructure.csproj.CopyComplete
 C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Infrastructure\obj\Debug\netstandard2.1\Tionit.ShopOnline.Infrastructure.dll
 C:\Users\Melkonyan\Desktop\Tionit.ShopOnline\Tionit.ShopOnline.Infrastructure\obj\Debug\netstandard2.1\Tionit.ShopOnline.Infrastructure.pdb
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Infrastructure\obj\Debug\netstandard2.1\Tionit.ShopOnline.Infrastructure.dll
+C:\Users\Melkonyan\source\repos\MyShop\Tionit.MyShop\Tionit.MyShop.Infrastructure\obj\Debug\netstandard2.1\Tionit.ShopOnline.Infrastructure.pdb

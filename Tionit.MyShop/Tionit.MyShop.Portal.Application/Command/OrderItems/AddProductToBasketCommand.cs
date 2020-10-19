@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using Tionit.AuditLogging;
 using Tionit.Enterprise.Exceptions;
 using Tionit.Enterprise.Validation;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Domain;
-using Tionit.ShopOnline.Portal.Application.Command.OrderItems.Models;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Domain;
+using Tionit.MyShop.Portal.Application.Command.OrderItems.Models;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Portal.Application.Command.OrderItems
+namespace Tionit.MyShop.Portal.Application.Command.OrderItems
 {
     /// <summary>
     /// Добавление продукта в корзину

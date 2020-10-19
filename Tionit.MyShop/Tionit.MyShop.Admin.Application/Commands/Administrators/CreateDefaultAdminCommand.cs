@@ -2,12 +2,12 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Tionit.AuditLogging;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Application.Utilities;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Application.Utilities;
+using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Commands
+namespace Tionit.MyShop.Backoffice.Application.Commands
 {
     /// <summary>
     /// Создание администратора по умолчанию

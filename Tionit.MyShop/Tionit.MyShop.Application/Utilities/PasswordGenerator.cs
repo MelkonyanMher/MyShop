@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tionit.ShopOnline.Application.Utilities
+namespace Tionit.MyShop.Application.Utilities
 {
     public class PasswordGenerator
     {

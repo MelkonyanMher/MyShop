@@ -1,4 +1,4 @@
-﻿namespace Tionit.ShopOnline.Application.Data
+﻿namespace Tionit.MyShop.Application.Data
 {
     /// <summary>
     /// Информация о сортировке

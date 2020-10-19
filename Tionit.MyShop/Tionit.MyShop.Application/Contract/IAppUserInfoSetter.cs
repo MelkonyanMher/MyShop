@@ -1,8 +1,8 @@
 ﻿using System;
 using Tionit.Enterprise;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Domain;
 
-namespace Tionit.ShopOnline.Application.Contract
+namespace Tionit.MyShop.Application.Contract
 {
     public interface IAppUserInfoSetter : IAppUserInfoProvider
     {

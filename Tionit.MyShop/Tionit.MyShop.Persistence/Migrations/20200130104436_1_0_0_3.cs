@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Tionit.ShopOnline.Persistence.Migrations
+namespace Tionit.MyShop.Persistence.Migrations
 {
     public partial class _1_0_0_3 : Migration
     {

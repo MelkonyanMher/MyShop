@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using Tionit.Enterprise.HangfireRecurringJobs;
 using Tionit.Net.Email;
-using Tionit.ShopOnline.Application.Contract.RecurringJobs;
+using Tionit.MyShop.Application.Contract.RecurringJobs;
 
-namespace Tionit.ShopOnline.SystemService.Application.RecurringJobs
+namespace Tionit.MyShop.SystemService.Application.RecurringJobs
 {
     public class EmailQueueProcessingRecurringJob :HangfireRecurringJob, IEmailQueueProcessingRecurringJob
     {

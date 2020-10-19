@@ -3,12 +3,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Tionit.AuditLogging;
 using Tionit.Enterprise.Validation;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Backoffice.Application.Commands.Products.Models;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Backoffice.Application.Commands.Products.Models;
+using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Commands.Products
+namespace Tionit.MyShop.Backoffice.Application.Commands.Products
 {
     /// <summary>
     /// Добавляем продукт

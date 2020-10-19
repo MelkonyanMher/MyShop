@@ -6,14 +6,14 @@ using Microsoft.IdentityModel.Tokens;
 using Tionit.AuditLogging;
 using Tionit.Enterprise;
 using Tionit.Enterprise.Validation;
-using Tionit.ShopOnline.Application.AuthOptions;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Application.Utilities;
-using Tionit.ShopOnline.Backoffice.Application.Commands.Administrators.Models;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Application.AuthOptions;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Application.Utilities;
+using Tionit.MyShop.Backoffice.Application.Commands.Administrators.Models;
+using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Commands
+namespace Tionit.MyShop.Backoffice.Application.Commands
 {
     /// <summary>
     /// Аутентификация администратора

@@ -7,14 +7,14 @@ using Microsoft.IdentityModel.Tokens;
 using Tionit.AuditLogging;
 using Tionit.Enterprise;
 using Tionit.Enterprise.Validation;
-using Tionit.ShopOnline.Application.AuthOptions;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Application.Utilities;
-using Tionit.ShopOnline.Domain;
-using Tionit.ShopOnline.Portal.Application.Command.Customers.Models;
+using Tionit.MyShop.Application.AuthOptions;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Application.Utilities;
+using Tionit.MyShop.Domain;
+using Tionit.MyShop.Portal.Application.Command.Customers.Models;
 using Tionit.Persistence;
 
-namespace Tionit.ShopOnline.Portal.Application.Command.Customers
+namespace Tionit.MyShop.Portal.Application.Command.Customers
 {
     public class AuthenticateCustomerCommand
     {

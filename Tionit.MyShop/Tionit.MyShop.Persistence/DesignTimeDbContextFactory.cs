@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Tionit.ShopOnline.Persistence
+namespace Tionit.MyShop.Persistence
 {
     public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
     {
@@ -9,7 +9,7 @@ namespace Tionit.ShopOnline.Persistence
         {
             var builder = new DbContextOptionsBuilder<AppDbContext>();
             string connectionString =
-                "Data Source=192.168.77.18;Initial Catalog=ShopOnline;Persist Security Info=True;User ID=dev;password=sqldevelopment#082015#;";
+                "Data Source=192.168.77.18;Initial Catalog=MyShop;Persist Security Info=True;User ID=dev;password=sqldevelopment#082015#;";
 
             builder.UseSqlServer(connectionString);
 

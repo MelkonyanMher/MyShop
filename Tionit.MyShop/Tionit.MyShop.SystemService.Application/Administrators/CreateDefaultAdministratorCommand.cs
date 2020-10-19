@@ -1,4 +1,4 @@
-﻿namespace Tionit.ShopOnline.SystemService.Application.Administrators
+﻿namespace Tionit.MyShop.SystemService.Application.Administrators
 {
     /// <summary>
     /// Создание администратора по умолчанию

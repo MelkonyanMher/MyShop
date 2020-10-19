@@ -1,17 +1,17 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Tionit.ShopOnline.Application.Contract;
-using Tionit.ShopOnline.Domain;
+using Tionit.MyShop.Application.Contract;
+using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 using System.Linq;
 using AutoMapper.QueryableExtensions;
-using Tionit.ShopOnline.Backoffice.Application.Queries.Orders.Models;
+using Tionit.MyShop.Backoffice.Application.Queries.Orders.Models;
 using AutoMapper;
 using Telerik.DataSource.Extensions;
 using Telerik.DataSource;
 
-namespace Tionit.ShopOnline.Backoffice.Application.Queries.Orders
+namespace Tionit.MyShop.Backoffice.Application.Queries.Orders
 {
     /// <summary>
     /// Все заказы

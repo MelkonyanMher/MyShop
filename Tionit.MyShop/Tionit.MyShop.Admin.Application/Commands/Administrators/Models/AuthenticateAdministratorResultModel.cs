@@ -1,6 +1,6 @@
 ﻿using Tionit.MyShop.Domain;
 
-namespace Tionit.MyShop.Backoffice.Application.Commands.Administrators.Models
+namespace Tionit.MyShop.Admin.Application.Commands.Administrators.Models
 {
     public class AuthenticateAdministratorResultModel
     {

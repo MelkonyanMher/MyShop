@@ -9,10 +9,10 @@ using Tionit.Enterprise.Exceptions;
 using Tionit.Enterprise.Validation;
 using Tionit.Persistence;
 using Tionit.MyShop.Application.Contract;
-using Tionit.MyShop.Backoffice.Application.Queries.OrderItems.Models;
+using Tionit.MyShop.Admin.Application.Queries.OrderItems.Models;
 using Tionit.MyShop.Domain;
 
-namespace Tionit.MyShop.Backoffice.Application.Queries.OrderItems
+namespace Tionit.MyShop.Admin.Application.Queries.OrderItems
 {
     /// <summary>
     /// Возврашяет все позиции заказа

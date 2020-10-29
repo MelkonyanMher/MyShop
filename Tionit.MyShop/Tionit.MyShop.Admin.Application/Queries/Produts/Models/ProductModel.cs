@@ -2,7 +2,7 @@
 using AutoMapper;
 using Tionit.MyShop.Domain;
 
-namespace Tionit.MyShop.Backoffice.Application.Queries.Produts.Models
+namespace Tionit.MyShop.Admin.Application.Queries.Produts.Models
 {
     public class ProductModel
     {

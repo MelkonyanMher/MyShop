@@ -5,7 +5,7 @@ using AutoMapper;
 using Tionit.AuditLogging;
 using Tionit.BuiltInDictionaries;
 
-namespace Tionit.MyShop.Backoffice.Application.Queries.Log.Models
+namespace Tionit.MyShop.Admin.Application.Queries.Log.Models
 {
     /// <summary>
     /// Модель для записи в логе

@@ -1,0 +1,12 @@
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\bin\Debug\netstandard2.1\Tionit.MyShop.Persistence.deps.json
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\bin\Debug\netstandard2.1\Tionit.MyShop.Persistence.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\bin\Debug\netstandard2.1\Tionit.MyShop.Persistence.pdb
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\bin\Debug\netstandard2.1\Tionit.MyShop.Domain.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\bin\Debug\netstandard2.1\Tionit.MyShop.Domain.pdb
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\obj\Debug\netstandard2.1\Tionit.MyShop.Persistence.csprojAssemblyReference.cache
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\obj\Debug\netstandard2.1\Tionit.MyShop.Persistence.AssemblyInfoInputs.cache
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\obj\Debug\netstandard2.1\Tionit.MyShop.Persistence.AssemblyInfo.cs
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\obj\Debug\netstandard2.1\Tionit.MyShop.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\obj\Debug\netstandard2.1\Tionit.MyShop.Persistence.csproj.CopyComplete
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\obj\Debug\netstandard2.1\Tionit.MyShop.Persistence.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Persistence\obj\Debug\netstandard2.1\Tionit.MyShop.Persistence.pdb

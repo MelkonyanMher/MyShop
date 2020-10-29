@@ -327,11 +327,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Melkonyan\\Source\\Repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj",
       "projectName": "Tionit.MyShop.Domain",
-      "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj",
+      "projectPath": "C:\\Users\\Melkonyan\\Source\\Repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\Tionit.MyShop.Domain.csproj",
       "packagesPath": "C:\\Users\\Melkonyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Melkonyan\\Source\\Repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -396,7 +396,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

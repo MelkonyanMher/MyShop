@@ -1,0 +1,16 @@
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\bin\Debug\netstandard2.1\Tionit.MyShop.Admin.Application.deps.json
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\bin\Debug\netstandard2.1\Tionit.MyShop.Admin.Application.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\bin\Debug\netstandard2.1\Tionit.MyShop.Admin.Application.pdb
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\bin\Debug\netstandard2.1\Tionit.MyShop.Application.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\bin\Debug\netstandard2.1\Tionit.MyShop.Domain.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\bin\Debug\netstandard2.1\Tionit.MyShop.Persistence.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\bin\Debug\netstandard2.1\Tionit.MyShop.Domain.pdb
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\bin\Debug\netstandard2.1\Tionit.MyShop.Persistence.pdb
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\bin\Debug\netstandard2.1\Tionit.MyShop.Application.pdb
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Application.csprojAssemblyReference.cache
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Application.AssemblyInfoInputs.cache
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Application.AssemblyInfo.cs
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Application.csproj.CoreCompileInputs.cache
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Application.csproj.CopyComplete
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Application.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Admin.Application\obj\Debug\netstandard2.1\Tionit.MyShop.Admin.Application.pdb

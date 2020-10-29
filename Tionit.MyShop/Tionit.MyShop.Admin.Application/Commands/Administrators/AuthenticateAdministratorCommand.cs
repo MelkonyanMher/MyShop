@@ -9,11 +9,11 @@ using Tionit.Enterprise.Validation;
 using Tionit.MyShop.Application.AuthOptions;
 using Tionit.MyShop.Application.Contract;
 using Tionit.MyShop.Application.Utilities;
-using Tionit.MyShop.Backoffice.Application.Commands.Administrators.Models;
+using Tionit.MyShop.Admin.Application.Commands.Administrators.Models;
 using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.MyShop.Backoffice.Application.Commands
+namespace Tionit.MyShop.Admin.Application.Commands
 {
     /// <summary>
     /// Аутентификация администратора

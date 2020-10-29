@@ -6,13 +6,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Blazored.LocalStorage" Version="3.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="3.2.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Build" Version="3.2.1" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="3.2.1" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.1" />
     <PackageReference Include="System.Net.Http.Json" Version="3.2.0" />
+    <PackageReference Include="Telerik.UI.for.Blazor" Version="2.6.0" />
+    <PackageReference Include="Tionit.AuditLogging" Version="3.0.0" />
+    <PackageReference Include="Tionit.AuditLogging.Repositories.EntityCoreAuditLogRepository" Version="4.0.0" />
+    <PackageReference Include="Tionit.Net.Email" Version="1.0.2.2" />
+    <PackageReference Include="Tionit.Net.Email.EFCoreEmailQueueRepository" Version="2.0.0.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Tionit.MyShop.Admin.Application\Tionit.MyShop.Admin.Application.csproj" />
     <ProjectReference Include="..\Shared\Tionit.MyShop.Admin.Shared.csproj" />
   </ItemGroup>
 

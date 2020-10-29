@@ -4,11 +4,11 @@ using AutoMapper.QueryableExtensions;
 using Telerik.DataSource;
 using Telerik.DataSource.Extensions;
 using Tionit.MyShop.Application.Contract;
-using Tionit.MyShop.Backoffice.Application.Queries.Customers.Models;
+using Tionit.MyShop.Admin.Application.Queries.Customers.Models;
 using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.MyShop.Backoffice.Application.Queries.Customers
+namespace Tionit.MyShop.Admin.Application.Queries.Customers
 {
     public class GetCustomersQuery
     {

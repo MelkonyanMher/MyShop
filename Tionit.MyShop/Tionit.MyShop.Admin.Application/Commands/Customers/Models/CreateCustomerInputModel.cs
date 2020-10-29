@@ -1,7 +1,7 @@
 ﻿using Tionit.Enterprise.Models;
 using Tionit.Enterprise.Models.Attributes;
 
-namespace Tionit.MyShop.Backoffice.Application.Commands.Customers.Models
+namespace Tionit.MyShop.Admin.Application.Commands.Customers.Models
 {
     /// <summary>
     /// Модель добавления клиента

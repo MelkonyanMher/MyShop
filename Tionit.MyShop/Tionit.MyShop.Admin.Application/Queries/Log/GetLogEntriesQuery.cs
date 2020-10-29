@@ -4,11 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Tionit.AuditLogging;
 using Tionit.MyShop.Application.Contract;
-using Tionit.MyShop.Backoffice.Application.Queries.Log.Models;
+using Tionit.MyShop.Admin.Application.Queries.Log.Models;
 using Telerik.DataSource;
 using Telerik.DataSource.Extensions;
 
-namespace Tionit.MyShop.Backoffice.Application.Queries.Log
+namespace Tionit.MyShop.Admin.Application.Queries.Log
 {
     public class GetLogEntriesQuery
     {

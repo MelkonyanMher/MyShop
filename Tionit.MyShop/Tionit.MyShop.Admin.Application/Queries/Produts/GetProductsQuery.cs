@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 using Telerik.DataSource;
 using Telerik.DataSource.Extensions;
 using Tionit.MyShop.Application.Contract;
-using Tionit.MyShop.Backoffice.Application.Queries.Produts.Models;
+using Tionit.MyShop.Admin.Application.Queries.Produts.Models;
 using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.MyShop.Backoffice.Application.Queries.Produts
+namespace Tionit.MyShop.Admin.Application.Queries.Produts
 {
     public class GetProductsQuery
     {

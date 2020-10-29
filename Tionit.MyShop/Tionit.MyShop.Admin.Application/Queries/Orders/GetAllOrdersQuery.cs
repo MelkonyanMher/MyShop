@@ -6,12 +6,12 @@ using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 using System.Linq;
 using AutoMapper.QueryableExtensions;
-using Tionit.MyShop.Backoffice.Application.Queries.Orders.Models;
+using Tionit.MyShop.Admin.Application.Queries.Orders.Models;
 using AutoMapper;
 using Telerik.DataSource.Extensions;
 using Telerik.DataSource;
 
-namespace Tionit.MyShop.Backoffice.Application.Queries.Orders
+namespace Tionit.MyShop.Admin.Application.Queries.Orders
 {
     /// <summary>
     /// Все заказы

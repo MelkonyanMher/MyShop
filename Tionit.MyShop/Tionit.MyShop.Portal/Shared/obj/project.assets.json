@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Portal\\Shared\\Tionit.MyShop.Portal.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Melkonyan\\Source\\Repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Portal\\Shared\\Tionit.MyShop.Portal.Shared.csproj",
       "projectName": "Tionit.MyShop.Portal.Shared",
-      "projectPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Portal\\Shared\\Tionit.MyShop.Portal.Shared.csproj",
+      "projectPath": "C:\\Users\\Melkonyan\\Source\\Repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Portal\\Shared\\Tionit.MyShop.Portal.Shared.csproj",
       "packagesPath": "C:\\Users\\Melkonyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Melkonyan\\source\\repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Portal\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\Melkonyan\\Source\\Repos\\MyShop\\Tionit.MyShop\\Tionit.MyShop.Portal\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

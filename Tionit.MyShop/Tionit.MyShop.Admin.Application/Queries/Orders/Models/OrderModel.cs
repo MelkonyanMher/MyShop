@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Tionit.MyShop.Domain;
 
-namespace Tionit.MyShop.Backoffice.Application.Queries.Orders.Models
+namespace Tionit.MyShop.Admin.Application.Queries.Orders.Models
 {
     public class OrderModel
     {

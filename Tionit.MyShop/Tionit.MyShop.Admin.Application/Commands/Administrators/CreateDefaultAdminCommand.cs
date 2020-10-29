@@ -7,7 +7,7 @@ using Tionit.MyShop.Application.Utilities;
 using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.MyShop.Backoffice.Application.Commands
+namespace Tionit.MyShop.Admin.Application.Commands
 {
     /// <summary>
     /// Создание администратора по умолчанию

@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Tionit.MyShop.Domain;
 
-namespace Tionit.MyShop.Backoffice.Application.Queries.Orders.Models
+namespace Tionit.MyShop.Admin.Application.Queries.Orders.Models
 {
     public class OrderItemModel
     {

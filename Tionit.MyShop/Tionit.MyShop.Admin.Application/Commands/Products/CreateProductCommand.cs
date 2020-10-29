@@ -4,11 +4,11 @@ using System.Threading.Tasks;
 using Tionit.AuditLogging;
 using Tionit.Enterprise.Validation;
 using Tionit.MyShop.Application.Contract;
-using Tionit.MyShop.Backoffice.Application.Commands.Products.Models;
+using Tionit.MyShop.Admin.Application.Commands.Products.Models;
 using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.MyShop.Backoffice.Application.Commands.Products
+namespace Tionit.MyShop.Admin.Application.Commands.Products
 {
     /// <summary>
     /// Добавляем продукт

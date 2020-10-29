@@ -1,0 +1,12 @@
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\bin\Debug\netstandard2.0\Tionit.MyShop.Application.deps.json
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\bin\Debug\netstandard2.0\Tionit.MyShop.Application.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\bin\Debug\netstandard2.0\Tionit.MyShop.Application.pdb
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\bin\Debug\netstandard2.0\Tionit.MyShop.Domain.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\bin\Debug\netstandard2.0\Tionit.MyShop.Domain.pdb
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\obj\Debug\netstandard2.0\Tionit.MyShop.Application.csprojAssemblyReference.cache
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\obj\Debug\netstandard2.0\Tionit.MyShop.Application.AssemblyInfoInputs.cache
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\obj\Debug\netstandard2.0\Tionit.MyShop.Application.AssemblyInfo.cs
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\obj\Debug\netstandard2.0\Tionit.MyShop.Application.csproj.CoreCompileInputs.cache
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\obj\Debug\netstandard2.0\Tionit.MyShop.Application.csproj.CopyComplete
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\obj\Debug\netstandard2.0\Tionit.MyShop.Application.dll
+C:\Users\Melkonyan\Source\Repos\MyShop\Tionit.MyShop\Tionit.MyShop.Application\obj\Debug\netstandard2.0\Tionit.MyShop.Application.pdb

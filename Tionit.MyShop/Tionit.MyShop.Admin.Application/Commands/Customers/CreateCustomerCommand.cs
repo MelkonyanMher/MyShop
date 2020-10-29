@@ -6,11 +6,11 @@ using Tionit.AuditLogging;
 using Tionit.Enterprise.Validation;
 using Tionit.MyShop.Application.Contract;
 using Tionit.MyShop.Application.Utilities;
-using Tionit.MyShop.Backoffice.Application.Commands.Customers.Models;
+using Tionit.MyShop.Admin.Application.Commands.Customers.Models;
 using Tionit.MyShop.Domain;
 using Tionit.Persistence;
 
-namespace Tionit.MyShop.Backoffice.Application.Commands.Customers
+namespace Tionit.MyShop.Admin.Application.Commands.Customers
 {
     public class CreateCustomerCommand
     {
